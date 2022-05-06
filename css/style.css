@@ -179,3 +179,14 @@ header {
 .more-details:hover{
     color: #601cfc;
 }
+
+/* start contact section*/
+.contact .icon{
+    font-size: 4.5em;
+}
+.contact .info h3 {
+    color: #000;
+}
+.contact .info a {
+    text-decoration: none;
+}

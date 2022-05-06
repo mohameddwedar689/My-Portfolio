@@ -65,7 +65,7 @@ header {
     margin-top: 10px;
 }
 .main h3 {
-    color: #4e9eff;
+    color: white;
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -90,7 +90,7 @@ header {
     transform: scale(1.1);
 }
 .social-icon a {
-    color: #4e9eff;
+    color: white;
     font-size: 1.7em;
     padding-right: 30px;
 }
@@ -215,4 +215,61 @@ header {
     color: white;
     font-size: 1.3em;
     padding: 0 12px 0 0;
+}
+
+/* start media */
+@media (max-width: 1023px) {
+    /* this media applied from 0px to 1023px */
+    header {
+        padding: 10px 20px;
+    }
+    header .logo {
+        font-size: 1em;
+        text-align: center;
+    }
+    header .logo span{
+        display: none;
+    }
+    .navigation a{
+        padding-left: 5px;
+        font-size: .9em;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    section {
+        padding: 80px 20px;
+    }
+    .main {
+        padding-top: 100px;
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 641px) {
+   body {
+       font-size: 12px;
+   } 
+   .footer {
+       flex-direction: column;
+       align-items: center;
+   }
+   .footer .footer-title{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        font-size: 10px;
+    }
 }

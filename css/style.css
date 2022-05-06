@@ -9,6 +9,11 @@
 section {
     padding: 100px 200px;
 }
+a,
+.card,
+.project-card {
+    cursor: pointer;
+}
 /* start header */
 header {
     background-color: #f0f0f0;
@@ -189,4 +194,25 @@ header {
 }
 .contact .info a {
     text-decoration: none;
+}
+
+/* start footer section */
+.footer {
+    background-color: #000016;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span {
+    color: #3a6cf4;
+}
+.footer .social-icon a{
+    color: white;
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
 }
